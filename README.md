@@ -11,7 +11,7 @@ This image is composed of:
 
 You will need a build machine with Docker and ioxclient installed. I recommend a Linux machine but it can also be build on other platforms.
 
-Ìf you want to save the hassle to build it yourself and start deploying right away, the IOx application is available for you [here]()
+Ìf you want to save the hassle to build it yourself and start deploying right away, the IOx application is available for you [here](https://github.com/etychon/ubuntu-IOx-x86/releases/latest)
 
 ### Setting you up
 
