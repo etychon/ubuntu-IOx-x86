@@ -1,5 +1,8 @@
 FROM ubuntu:20.04
 
+ARG DEBIAN_FRONTEND=noninteractive
+ADD VERSION .
+
 RUN apt-get update && apt-get install -y openssh-server curl libcurl4-openssl-dev build-essential cmake git python2.7-dev libboost-python-dev joe python3-pip
 RUN pip3 install azure-iot-device
 
